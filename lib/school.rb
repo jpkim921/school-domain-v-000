@@ -1,7 +1,9 @@
 # require 'pry'
 
 class School
-attr_accessor :roster, :student
+# attr_accessor :roster, :student
+attr_accessor  :student
+
 
   def initialize(school_name)
     @school_name = school_name
