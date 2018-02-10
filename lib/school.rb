@@ -24,9 +24,13 @@ attr_accessor :roster, :student
   end
 
   def sort
+<<<<<<< HEAD
     @roster.each do |k,v|
       @roster[k] = v.sort!
     end
+=======
+    @roster.sort.to_h
+>>>>>>> 936f0fc3976f01201ae54296dbb7711452776b03
   end
 
 end
