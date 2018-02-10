@@ -31,7 +31,7 @@ attr_accessor  :student
       @roster[k] = v.sort!
     end
 # =======
-    @roster.sort.to_h
+     @roster.sort.to_h
 # >>>>>>> 936f0fc3976f01201ae54296dbb7711452776b03
   end
 
