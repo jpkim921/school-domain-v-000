@@ -8,9 +8,7 @@ attr_accessor  :student
 
   def initialize(school_name)
     @school_name = school_name
-    def roster
       @roster = {}
-    end
   end
 
   def add_student(student_name, grade)
